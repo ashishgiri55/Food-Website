@@ -1,0 +1,105 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#headerblock {
+    list-style: none;
+}
+#headerblock .navbar{
+    background-color: #fff !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64,67, 0.3),
+    0 2px 6px 2px rgba(60, 64,67, 0.15);
+}
+#headerblock article .navbar .navbar-brand img{
+    width: 100px;
+    height: 56px;
+}
+#headerblock .navbar .navbar-brand{
+    margin-right: 40px;
+}
+#headerblock .navbar .nav-link{
+    color: #5f6368;
+    font-size: 14px;
+    font-weight: bold;
+}
+#headerblock nav{
+    padding: 0px 20px;
+   
+
+}
+#headerblock nav .nav-link{
+    padding: 15px 20px;
+}
+#headerblock nav .nav-link:hover{
+    border-bottom: 3px solid #5f6368;
+    border: none;
+    }
+#headerblock nav input{
+        padding: 0px 0px 0 34px;
+        border: none;
+    }
+.position-absolute{
+    position: absolute;
+    top:15px ;
+    left: 10px;
+    color: #888;
+   }
+
+#MainBlock{
+    /* height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto; */
+    height: 140vh;
+    background-image: url(../images/3957707.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#MainBlock header{
+    margin: 80px 0 40px 0;
+}
+
+.signIn{
+    position: relative;
+    left: 1200px;
+    color:#555;
+    
+}
+.row .col-md-4{
+    height: 150px;
+}
+.card .btn {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .carousel-caption h1{
+    position: relative;
+    top: -180px;
+    font-size: 24px;
+    font-style: italic;
+    color: #fff;
+    font-weight: bold;
+}
+#footerBlock{
+    position: absolute;
+}
+.row .col-md-12{
+    background-color: greenyellow;
+    width:100%;
+    position: relative;
+    top: 50px;
+}

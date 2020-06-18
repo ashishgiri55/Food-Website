@@ -1,0 +1,41 @@
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGJl3U1rHvFwp_71ynAWFzTynsrxNCEvVTa_QIg_4J8cLNzsfr&usqp=CAU);
+}
+
+.card{
+    margin-top: 150px;
+    border-radius: 10px;
+}
+.card img{
+    width: 536px;
+    height: 268px;
+    border-radius: 10px;
+}
+.carousel-caption h1{
+    position: relative;
+    top: -56px;
+}
+.card .btn {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12, 162, 231);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .card img .btn:hover {
+    background-color: black;
+  }    
+  .carousel-caption p{
+    position: relative;
+    top: -70px;
+    font-size: 18px;
+    font-weight: bold;
+}
